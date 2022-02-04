@@ -23,7 +23,7 @@
         return pairs
     }
     update();
-    setTimeout(() => {
+    setInterval(() => {
         document.querySelector('#funding-info').delete();
         update();
     }, 5000);
